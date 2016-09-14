@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<title>
+		Ace Task
+	</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	<link rel="icon" href="index.png" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row" style="margin-top:20px;">
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+				<img src="img/logo.png" style="width:120px;">
+				<span class="task"> Task</span>
+			</div><br><br>
+
+			<center>
+			<div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+				<center>
+					<div class="blackTab">
+						<div class="pad">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<h1 class="taskHead">Task 1: Google Keep (KeePen)</h1>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<center>
+								<a href="http://acepotterhead.esy.es/KeePen/index.php" target="_blank"><button class="taskButton animated slideInUp">View Website</button></a>
+								<a href="https://github.com/srijitcoder/keepen" target="_blank"><button class="codeButton animated slideInUp">View Code</button></a>
+							</center>
+						</div>
+							<br><br><br>
+
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top:50px;">
+								<h1 class="taskHead">Task 2: Fan Page (Potterhead)</h1>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top:50px;">
+							<center>
+								<a href="http://acepotterhead.esy.es/index.php" target="_blank"><button class="taskButton animated slideInUp">View Website</button></a>
+								<a href="https://github.com/srijitcoder/potterhead" target="_blank"><button class="codeButton animated slideInUp">View Code</button></a>
+							</center>
+						</div>
+
+						</div>
+					</div>
+				</center>
+			</div>
+			</center>
+
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<center>
+						<h1 class="aboutme">
+							<u>About Me</u>
+						</h1>
+					</center>
+				</div>
+
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="margin-top:10px;letter-spacing:8px;">
+					<center>
+						<a href="https://www.facebook.com/SrijitSMadhavan" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+						<a href="https://twitter.com/Srijitphp" target="_blank"><i class="fa fa-twitter fa-lg"></i></a>
+						<a href="mailto:srijitsm123@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-lg"></i></a>
+						<a href="tel:09818848268" target="_blank"><i class="fa fa-phone fa-lg"></i></a>
+					</center>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="aboutHP">
+		<div class="aboutHPRel">
+			<div class="abouttab animated zoomIn">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<center>
+								<h1 class="HeadingTxt">About Me</h1><br><br>
+								<p class="abouttext">
+									My Name is Srijit S Madhavan. I am from BCA 1EB (Enrollment No. 08729802016). I started web development when i was in 9th grade. I completed couple of projects as a freelancer. I also did 2 month internship after my 12th from a startup company called <a href="http://xeler8.com" target="_blank">'Xeler8, Inc'</a>. <br><br>
+									Skills- PHP, HTML, CSS, JavaScript, JQuery, MySQL, Bootstrap, JQuery Mobile, Animate.css and C.     
+								</p>
+							</center>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="closeNav" id="closeAbout">
+				X
+			</div>
+		</div>
+	</div>
+
+	<br>
+	<br>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.aboutme').click(function(){
+				$('.aboutHP').show();
+				$('.abouttab').show();
+			});
+		});
+
+		$(document).ready(function(){
+		$('#closeAbout').click(function(){
+			$('.aboutHP').hide();
+			$('.abouttab').hide();
+		});
+		});
+	</script>
+</body>
+</html>
